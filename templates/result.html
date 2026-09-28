@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parsed Resume</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Parsed Resume Data</h1>
+        <ul>
+            <li><strong>Name:</strong> {{ data.name or "Not found" }}</li>
+            <li><strong>Email:</strong> {{ data.email or "Not found" }}</li>
+            <li><strong>Phone:</strong> {{ data.phone or "Not found" }}</li>
+            <li><strong>Skills:</strong> {{ data.skills | join(', ') if data.skills else "None found" }}</li>
+        </ul>
+        <a href="/">🔁 Parse another resume</a>
+    </div>
+</body>
+</html>

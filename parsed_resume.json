@@ -1,0 +1,12 @@
+{
+    "name": "Rupa Sharma",
+    "email": "rupa.sharma@email.com",
+    "phone": "+91 9876543210",
+    "skills": [
+        "Python",
+        "Machine Learning",
+        "SQL",
+        "Communication",
+        "Leadership"
+    ]
+}

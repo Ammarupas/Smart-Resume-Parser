@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding: 50px;
+}
+.container {
+    background: white;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+input[type="file"] {
+    margin: 15px 0;
+}
+button {
+    padding: 10px 20px;
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+li {
+    margin: 10px 0;
+}
